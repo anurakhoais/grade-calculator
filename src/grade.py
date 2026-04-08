@@ -33,3 +33,7 @@ def calculate_weighted_gpa(scores, credits):
                        for s, c in zip(scores, credits))
     total_credits = sum(credits)
     return round(total_points / total_credits, 2)
+
+def get_honor_roll(students_scores):
+    # TODO: กำลังทำอยู่ ยังไม่เสร็จ
+    pass
